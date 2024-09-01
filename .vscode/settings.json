@@ -1,0 +1,7 @@
+{
+    "blockman.n26AnalyzeIndentDedentTokens": false,
+    "editor.wrappingIndent": "none",
+    "editor.guides.indentation": false,
+    "editor.guides.highlightActiveIndentation": false,
+    "workbench.colorCustomizations": {}
+}
