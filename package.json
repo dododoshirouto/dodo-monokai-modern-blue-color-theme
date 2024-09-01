@@ -1,0 +1,32 @@
+{
+    "name": "dodo-monokai-modern-blue-color-theme",
+    "displayName": "Dodo Monokai Modern Blue",
+    "description": "Marged color theme from 'Dark Modern' and 'Monokai'.",
+    "publisher": "dododoshirouto",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.92.2"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "icon": "icon.png",
+    "license": "https://github.com/dododoshirouto/dodo-monokai-modern-blue-color-theme/blob/master/LICENSE",
+    "homepage": "https://github.com/dododoshirouto/dodo-monokai-modern-blue-color-theme",
+    "bugs": {
+        "url": "https://github.com/dododoshirouto/dodo-monokai-modern-blue-color-theme/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dododoshirouto/dodo-monokai-modern-blue-color-theme.git"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "dodo-monokai-modern-blue",
+                "uiTheme": "vs-dark",
+                "path": "./dodo-monokai-modern-blue-color-theme.json"
+            }
+        ]
+    }
+}

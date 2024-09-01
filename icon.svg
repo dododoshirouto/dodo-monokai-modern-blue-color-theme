@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <filter id="drop-shadow-filter-0" color-interpolation-filters="sRGB" x="-50%" y="-50%" width="200%" height="200%" bx:preset="drop-shadow 1 0 2 3 0.5 #0000005c">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="0" dy="2"/>
+      <feComponentTransfer result="offsetblur">
+        <feFuncA id="spread-ctrl" type="linear" slope="1"/>
+      </feComponentTransfer>
+      <feFlood flood-color="#0000005c"/>
+      <feComposite in2="offsetblur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="filter0_d" x="-8.39411" y="15.8291" width="116.727" height="92.2456" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+      <feOffset/>
+      <feGaussianBlur stdDeviation="4.16667"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+      <feBlend mode="overlay" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+    </filter>
+    <filter id="filter1_d" x="60.4167" y="-8.07558" width="47.9167" height="116.151" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+      <feOffset/>
+      <feGaussianBlur stdDeviation="4.16667"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+      <feBlend mode="overlay" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+    </filter>
+    <linearGradient id="gradient-1" x1="49.9392" y1="0.257812" x2="49.9392" y2="99.7423" gradientUnits="userSpaceOnUse">
+      <stop stop-color="white"/>
+      <stop offset="1" stop-color="white" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <mask id="mask-1" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="100" height="100">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M70.9119 99.3171C72.4869 99.9307 74.2828 99.8914 75.8725 99.1264L96.4608 89.2197C98.6242 88.1787 100 85.9892 100 83.5872V16.4133C100 14.0113 98.6243 11.8218 96.4609 10.7808L75.8725 0.873756C73.7862 -0.130129 71.3446 0.11576 69.5135 1.44695C69.252 1.63711 69.0028 1.84943 68.769 2.08341L29.3551 38.0415L12.1872 25.0096C10.589 23.7965 8.35363 23.8959 6.86933 25.2461L1.36303 30.2549C-0.452552 31.9064 -0.454633 34.7627 1.35853 36.417L16.2471 50.0001L1.35853 63.5832C-0.454633 65.2374 -0.452552 68.0938 1.36303 69.7453L6.86933 74.7541C8.35363 76.1043 10.589 76.2037 12.1872 74.9905L29.3551 61.9587L68.769 97.9167C69.3925 98.5406 70.1246 99.0104 70.9119 99.3171ZM75.0152 27.2989L45.1091 50.0001L75.0152 72.7012V27.2989Z" fill="white"/>
+  </mask>
+  <rect x="2.573" y="2.572" width="94.853" height="94.853" style="fill: rgb(56, 58, 73); stroke: rgb(0, 120, 212); stroke-width: 4px; filter: none;" rx="13.936" ry="13.936"/>
+  <g style="filter: url('#drop-shadow-filter-0');" transform="matrix(0.7077800035476685, 0, 0, 0.7077800035476685, 14.632509231567381, 14.61096477508545)">
+    <title>vscode icon</title>
+    <path d="M 12.134 74.991 C 10.535 76.204 8.298 76.104 6.813 74.754 L 1.303 69.745 C -0.514 68.094 -0.516 65.237 1.299 63.583 L 16.196 50 L 29.312 61.959 L 12.134 74.991 Z" style="stroke: rgb(56, 58, 73); stroke-width: 1.41287px; fill: rgb(166, 226, 46); stroke-linejoin: round;">
+      <title>bottom 2</title>
+    </path>
+    <path d="M 45.076 50 L 29.313 38.041 L 68.75 2.083 C 68.751 2.082 68.753 2.08 68.754 2.079 C 71.061 -0.221 75 1.412 75 4.672 L 75 27.299 L 45.076 50 Z" style="stroke: rgb(56, 58, 73); stroke-width: 1.41287px; fill: rgb(249, 38, 114); stroke-linejoin: round;">
+      <title>bottom 1</title>
+    </path>
+    <path d="M 68.764 97.899 L 1.313 36.399 C -0.501 34.745 -0.499 31.888 1.317 30.237 L 6.827 25.228 C 8.312 23.878 10.549 23.779 12.148 24.992 L 75 72.672 L 75 95.328 C 75 98.352 71.61 99.976 69.278 98.359 C 69.1 98.216 68.928 98.063 68.764 97.899 Z M 100.014 83.316 L 100.014 83.555 C 100.014 84.444 99.825 85.305 99.478 86.088 C 99.805 85.339 99.988 84.521 99.999 83.675 C 100.009 83.557 100.014 83.438 100.014 83.316 Z" style="stroke: rgb(56, 58, 73); stroke-width: 1.41287px; fill: rgb(102, 217, 239); stroke-linejoin: round;">
+      <title>top</title>
+    </path>
+    <path d="M75.8578 99.1263C73.4721 100.274 70.6219 99.7885 68.75 97.9166C71.0564 100.223 75 98.5895 75 95.3278V4.67213C75 1.41039 71.0564 -0.223106 68.75 2.08329C70.6219 0.211402 73.4721 -0.273666 75.8578 0.873633L96.4587 10.7807C98.6234 11.8217 100 14.0112 100 16.4132V83.5871C100 85.9891 98.6234 88.1786 96.4586 89.2196L75.8578 99.1263Z" style="stroke: rgb(56, 58, 73); stroke-width: 1.41287px; fill: rgb(174, 129, 255); stroke-linejoin: round;">
+      <title>right</title>
+    </path>
+  </g>
+</svg>
